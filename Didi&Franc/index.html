@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Alegreya+Sans+SC:ital,wght@0,100;0,300;0,400;0,500;0,700;0,800;0,900;1,100;1,300;1,400;1,500;1,700;1,800;1,900&family=Allura&family=Alumni+Sans+Pinstripe:ital@0;1&family=Comic+Relief:wght@400;700&family=Grandiflora+One&family=Nanum+Myeongjo&family=Poiret+One&family=Quicksand:wght@300..700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Style+Script&family=Tangerine:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/x-icon" href="assets/frame5.jpg" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Didi & Franc</title>
+  </head> 
+  <body>
+    <!-- ----------------------Preloader for text logo---------------------------->
+     <div id="preloader" class="preloader-overlay">
+      <div class="coffee-bounce">
+        <h1 class="icon">Didi & Franc</h1>
+      </div>
+    </div>
+    <!-- ----------------------Navbar---------------------------- -->
+    <div id="navbar">
+      <div class="logo">
+        <h1><a href="#home">Didi & Franc</a></h1>
+      </div>
+      <img
+        class="navbar-icon"
+        src="assets/navbar-icon.png"
+        alt="Menu"
+        onclick="toggleNav()"
+      />
+      <div class="sections">
+        <ul class="nav-links">
+          <li><a href="#about">About</a></li>
+          <li><a href="#menu">Menu</a></li>
+          <li><a href="#container">Gallery</a></li>
+          <li><a href="#timings">Timings</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+    <!-- -----------------------Home---------------------------- -->
+    <div id="home">
+      <h1>Didi & Franc</h1>
+      <h2>Wine and Cheese Shop</h2>
+    </div>
+    <!-- ------------------------About-------------------------- -->
+    <div id="about">
+      <div class="about-text">
+        <h1>Welcome to Didi & Franc</h1>
+        <p>
+          Located at 296–300 Kennington Road, in the heart of London, Didi & Franc is a cosy café where community and creativity come together over great coffee and fresh, homemade food.
+          <br>
+          Our menu celebrates simple pleasures: buttery pastries, vibrant salads, artisan sandwiches, and carefully brewed coffees and teas. Whether you’re grabbing a quick breakfast, settling in with your laptop, or meeting friends for a leisurely lunch, our welcoming space is designed to make you feel at home.
+          <br>
+          Every detail at Didi & Franc reflects our love for quality, warmth, and good conversation. Come by and discover your new favourite spot in Kennington.
+        </p>
+      </div>
+      <div class="about-image">
+        <div class="front-image"></div>
+        <div class="back-image"></div>
+      </div>
+    </div>
+    <!-- ------------------------Frames------------------------------ -->
+     <div id="frames">
+      <div class="frame"><img src="assets/frame1.jpg" alt=""></div>
+      <div class="frame"><img src="assets/frame2.jpg" alt=""></div>
+      <div class="frame"><img src="assets/frame3.jpg" alt=""></div>
+      <div class="frame"><img src="assets/frame4.jpg" alt=""></div>
+      <div class="frame"><img src="assets/frame5.jpg" alt=""></div>
+      <div class="frame"><img src="assets/frame6.jpg" alt=""></div>
+      <div class="frame"><img src="assets/frame7.jpg" alt=""></div>
+      <div class="frame"><img src="assets/frame8.jpg" alt=""></div>
+     </div>
+     <!-- ------------------------Menu-------------------------------- -->
+     <div id="menu">
+       <h1 class="menu-title">Menu</h1>
+      <div class="drinks">
+        <div class="items coffee">
+          <h1>Café</h1>
+          <ul>
+            <li>
+              <span class="item-name">Espresso</span><span class="dots"></span
+              ><span class="item-price">2.50</span>
+            </li>
+            <li>
+              <span class="item-name">Ristretto</span><span class="dots"></span
+              ><span class="item-price">2.50</span>
+            </li>
+            <li>
+              <span class="item-name">Espresso Macchato</span
+              ><span class="dots"></span><span class="item-price">2.50</span>
+            </li>
+            <li>
+              <span class="item-name">Lungo</span><span class="dots"></span
+              ><span class="item-price">2.90</span>
+            </li>
+            <li>
+              <span class="item-name">Lungo Macchato</span
+              ><span class="dots"></span><span class="item-price">2.90</span>
+            </li>
+            <li>
+              <span class="item-name">Double Espresso</span
+              ><span class="dots"></span><span class="item-price">3.90</span>
+            </li>
+            <li>
+              <span class="item-name">Flat White</span><span class="dots"></span
+              ><span class="item-price">5.00</span>
+            </li>
+          </ul>
+        </div>
+        <div class="items tea">
+          <h1>Thé</h1>
+          <ul>
+            <li>
+              <span class="item-name">Matcha</span><span class="dots"></span
+              ><span class="item-price">4.50</span>
+            </li>
+            <li>
+              <span class="item-name">Chai Masala</span
+              ><span class="dots"></span><span class="item-price">4.50</span>
+            </li>
+            <li>
+              <span class="item-name">Chocolat Chaud</span
+              ><span class="dots"></span><span class="item-price">6.00</span>
+            </li>
+            <li>
+              <span class="item-name">Thé/ infusions</span
+              ><span class="dots"></span><span class="item-price">4.50</span>
+            </li>
+            <li>
+              <span class="item-name">Softs</span><span class="dots"></span
+              ><span class="item-price">4.00</span>
+            </li>
+            <li>
+              <span class="item-name">Eaux</span><span class="dots"></span
+              ><span class="item-price">3.00</span>
+            </li>
+            <li>
+              <span class="item-name">Jus d'orange</span
+              ><span class="dots"></span><span class="item-price">5.00</span>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="food">
+        <div class="items meal">
+          <h1>Boissons</h1>
+          <ul>
+            <li>
+              <span class="item-name">Jus d'orange</span
+              ><span class="dots"></span><span class="item-price">5.00</span>
+            </li>
+            <li>
+              <span class="item-name">Thé</span><span class="dots"></span
+              ><span class="item-price">4.00</span>
+            </li>
+            <li>
+              <span class="item-name">Chai Tea Latte</span
+              ><span class="dots"></span><span class="item-price">5.90</span>
+            </li>
+            <li>
+              <span class="item-name">Matcha Latte</span
+              ><span class="dots"></span><span class="item-price">5.90</span>
+            </li>
+            <li>
+              <span class="item-name">Chocolat Vennois</span
+              ><span class="dots"></span><span class="item-price">5.50</span>
+            </li>
+            <li>
+              <span class="item-name">Chocolat Blanc Vennois</span
+              ><span class="dots"></span><span class="item-price">5.50</span>
+            </li>
+          </ul>
+        </div>
+        <div class="items bread">
+          <h1>Frapés</h1>
+          <ul>
+            <li>
+              <span class="item-name">Cafe</span><span class="dots"></span
+              ><span class="item-price">4.90</span>
+            </li>
+            <li>
+              <span class="item-name">Latte</span><span class="dots"></span
+              ><span class="item-price">5.50</span>
+            </li>
+            <li>
+              <span class="item-name">Moccaccino</span><span class="dots"></span
+              ><span class="item-price">5.90</span>
+            </li>
+            <li>
+              <span class="item-name">Moccaccino Blanc</span
+              ><span class="dots"></span><span class="item-price">5.90</span>
+            </li>
+            <li>
+              <span class="item-name">Caramelo</span><span class="dots"></span
+                ><span class="item-price">5.90</span>
+              </li>
+              <li>
+                <span class="item-name">Vanille</span><span class="dots"></span
+                  ><span class="item-price">5.90</span>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <!-- -----------------------Gallery------------------------------ -->
+        <div id="container">
+          <div class="header">
+            <h1>ART CULINAIRE</h1>
+            <p>Une célébration visuelle des saveurs</p>
+          </div>
+          <div class="gallery" id="gallery">
+            <!-- Images will be populated by JavaScript -->
+          </div>
+        </div>
+        <!-- ------------------------Timings----------------------------- -->
+         <div id="timings">
+          <div class="timing-title">
+            <h2>Opening</h2>
+            <h2 class="und">Hours</h2>
+          </div>
+          <!-- <div class="separation"></div> -->
+          <div class="times">
+            <div class="mon-thu">
+              <h3>Wednesday - Saturday</h3>
+              <h2>12.00 - 22.00</h2>
+            </div>
+            <div class="fri-sun">
+              <h3>Sunday - Tuesday</h3>
+              <h2>Closed</h2>
+            </div>
+          </div>
+         </div>
+    <!-- -----------------------Contact------------------------------ -->
+     <div id="contact">
+      <div class="address">
+        <div class="logo-end">
+        <h1 class="logo-text">Didi & Franc</h1>
+      </div>
+        <span
+          ><img
+            class="location-icon"
+            src="assets/location-icon.png"
+            alt="location-icon"
+          />
+          296-300 Kennington Rd,<br />
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;London SE11 4LD, UK</span
+        >
+        <a
+          href="https://www.google.com/maps/place/Didi+%26+Franc/@51.4877521,-0.1115006,17z/data=!3m1!5s0x48760493e10dad9b:0xec2eb3263a73132b!4m17!1m10!3m9!1s0x48760587e493a7c5:0x6c68cc8bebd2e3ce!2sDidi+%26+Franc!8m2!3d51.4877521!4d-0.1115006!10e5!14m1!1BCgIgAQ!16s%2Fg%2F11n13yzww2!3m5!1s0x48760587e493a7c5:0x6c68cc8bebd2e3ce!8m2!3d51.4877521!4d-0.1115006!16s%2Fg%2F11n13yzww2?entry=ttu&g_ep=EgoyMDI1MDYyNi4wIKXMDSoASAFQAw%3D%3D"
+          ><br />View on map</a
+        >
+      </div>
+      <div class="contact-us">
+        <h1>Contact Us</h1>
+        <p>
+          For any inquiries or feedback, please do not hesitate to contact us by phone or send us a message on Instagram:
+        </p>
+        <div>
+          <img src="assets/phone-icon.png" alt="phone-icon" />
+          <a href="tel:+442077351567">+44 20 7735 1567</a>
+        </div>
+        <div class="instagram-link">
+          <img
+            class="instagram-icon"
+            src="assets/instagram.png"
+            alt="Instagram Icon"
+          />
+          <a href="https://www.instagram.com/didiandfranc/">Instagram </a>
+        </div>
+      </div>
+      </div>
+    </div>
+    <!-- -----------------------Script------------------------------- -->
+    <script src="script.js"></script>
+  </body>
+</html>
