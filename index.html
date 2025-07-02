@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Web Development Services - Reference Projects</title>
+  </head>
+  <body>
+    <div class="floating-elements">
+      <div class="floating-circle"></div>
+      <div class="floating-circle"></div>
+      <div class="floating-circle"></div>
+    </div>
+
+    <div class="container">
+      <header class="header">
+        <h1 class="main-title">Professional Web Development</h1>
+        <p class="subtitle">
+          Explore Our Reference Projects & Choose Your Preferred Style
+        </p>
+        <p class="intro-text">
+          Browse through our carefully selected showcase of live websites. Each
+          represents a different approach to design and functionality. Choose
+          the style that resonates with your vision, and we'll create something
+          similar for your business.
+        </p>
+      </header>
+
+      <section class="projects-section">
+        <h2 class="section-title">Reference Projects</h2>
+
+        <div class="projects-grid">
+          <div class="project-showcase" onclick="selectStyle(this)">
+            <div class="selection-indicator">✓ Selected</div>
+            <div
+              class="project-preview f1"
+              style="
+                background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+              "
+            >
+              <div class="preview-icon">🏢</div>
+            </div>
+            <div class="project-content">
+              <div class="project-category">Corporate & Business</div>
+              <h3 class="project-name">Modern Corporate Website</h3>
+              <p class="project-description">
+                Clean, professional design with smooth animations and corporate
+                branding. Perfect for established businesses looking to showcase
+                their services and build trust with clients.
+              </p>
+              <div class="project-features">
+                <div class="features-list">
+                  <span class="feature-tag">Responsive Design</span>
+                  <span class="feature-tag">CMS Integration</span>
+                  <span class="feature-tag">Contact Forms</span>
+                  <span class="feature-tag">SEO Optimized</span>
+                </div>
+              </div>
+              <div class="project-actions">
+                <a href="Didi & Franc Rest/index.html" class="view-live-btn">
+                  <span>👁️</span> View Live Site
+                </a>
+                <button
+                  class="select-style-btn"
+                  onclick="event.stopPropagation(); selectStyle(this.closest('.project-showcase'))"
+                >
+                  Choose This Style
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <div class="project-showcase" onclick="selectStyle(this)">
+            <div class="selection-indicator">✓ Selected</div>
+            <div
+              class="project-preview f2"
+              style="
+                background: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%);
+              "
+            >
+              <div class="preview-icon">🛒</div>
+            </div>
+            <div class="project-content">
+              <div class="project-category">E-Commerce & Retail</div>
+              <h3 class="project-name">Premium E-Commerce Store</h3>
+              <p class="project-description">
+                Feature-rich online store with advanced product catalogs, secure
+                payment processing, and customer account management. Ideal for
+                businesses selling products online.
+              </p>
+              <div class="project-features">
+                <div class="features-list">
+                  <span class="feature-tag">Shopping Cart</span>
+                  <span class="feature-tag">Payment Gateway</span>
+                  <span class="feature-tag">User Accounts</span>
+                  <span class="feature-tag">Inventory Management</span>
+                </div>
+              </div>
+              <div class="project-actions">
+                <a href="#" class="view-live-btn">
+                  <span>👁️</span> View Live Site
+                </a>
+                <button
+                  class="select-style-btn"
+                  onclick="event.stopPropagation(); selectStyle(this.closest('.project-showcase'))"
+                >
+                  Choose This Style
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <div class="project-showcase" onclick="selectStyle(this)">
+            <div class="selection-indicator">✓ Selected</div>
+            <div
+              class="project-preview f3"
+              style="
+                background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);
+              "
+            >
+              <div class="preview-icon">🎨</div>
+            </div>
+            <div class="project-content">
+              <div class="project-category">Creative & Portfolio</div>
+              <h3 class="project-name">Creative Studio Website</h3>
+              <p class="project-description">
+                Bold, artistic design with interactive elements and stunning
+                visual presentations. Perfect for creative agencies, artists,
+                and design-focused businesses.
+              </p>
+              <div class="project-features">
+                <div class="features-list">
+                  <span class="feature-tag">Interactive Gallery</span>
+                  <span class="feature-tag">Animation Effects</span>
+                  <span class="feature-tag">Portfolio Showcase</span>
+                  <span class="feature-tag">Creative Layouts</span>
+                </div>
+              </div>
+              <div class="project-actions">
+                <a href="#" class="view-live-btn">
+                  <span>👁️</span> View Live Site
+                </a>
+                <button
+                  class="select-style-btn"
+                  onclick="event.stopPropagation(); selectStyle(this.closest('.project-showcase'))"
+                >
+                  Choose This Style
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <div class="project-showcase" onclick="selectStyle(this)">
+            <div class="selection-indicator">✓ Selected</div>
+            <div
+              class="project-preview f4"
+              style="
+                background: linear-gradient(135deg, #fa709a 0%, #fee140 100%);
+              "
+            >
+              <div class="preview-icon">🏥</div>
+            </div>
+            <div class="project-content">
+              <div class="project-category">Service & Professional</div>
+              <h3 class="project-name">Professional Services Site</h3>
+              <p class="project-description">
+                Trust-focused design with appointment booking, service
+                descriptions, and client testimonials. Ideal for healthcare,
+                consulting, and professional service providers.
+              </p>
+              <div class="project-features">
+                <div class="features-list">
+                  <span class="feature-tag">Appointment Booking</span>
+                  <span class="feature-tag">Service Pages</span>
+                  <span class="feature-tag">Client Reviews</span>
+                  <span class="feature-tag">Professional Layout</span>
+                </div>
+              </div>
+              <div class="project-actions">
+                <a href="#" class="view-live-btn">
+                  <span>👁️</span> View Live Site
+                </a>
+                <button
+                  class="select-style-btn"
+                  onclick="event.stopPropagation(); selectStyle(this.closest('.project-showcase'))"
+                >
+                  Choose This Style
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="cta-section">
+        <h2 class="cta-title">Ready to Get Started?</h2>
+        <p class="cta-description">
+          Found a style you like? Let's discuss your project requirements and
+          create a custom website that perfectly fits your business needs and
+          goals.
+        </p>
+        <a href="#" class="cta-button">Start Your Project</a>
+      </section>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
