@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Alegreya+Sans+SC:ital,wght@0,100;0,300;0,400;0,500;0,700;0,800;0,900;1,100;1,300;1,400;1,500;1,700;1,800;1,900&family=Allura&family=Alumni+Sans+Pinstripe:ital@0;1&family=Chewy&family=Comic+Relief:wght@400;700&family=Grandiflora+One&family=Nanum+Myeongjo&family=Parisienne&family=Poiret+One&family=Quicksand:wght@300..700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Style+Script&family=Tangerine:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/x-icon" href="assets/logo-icon.png" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Gery's Deli Cafe</title>
+  </head> 
+  <body>
+    <!-- ----------------------Preloader for text logo---------------------------->
+    <div id="preloader" class="preloader-overlay">
+      <div class="coffee-bounce">
+        <h1 class="icon">Gery's Deli cafe</h1>
+      </div>
+    </div>
+    <!-- ----------------------Navbar---------------------------- -->
+    <div id="navbar">
+      <div class="logo"> 
+        <h1><a href="#home">Gery's Deli cafe</a></h1>
+      </div>
+      <img
+        class="navbar-icon"
+        src="assets/navbar-icon.png"
+        alt="Menu"
+        onclick="toggleNav()"
+      />
+      <div class="sections">
+        <ul class="nav-links">
+          <li><a href="#about">About</a></li>
+          <li><a href="#timings">Timings</a></li>
+          <li><a href="#menu">Menu</a></li>
+          <li><a href="#container">Gallary</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+    <!-- -----------------------Home---------------------------- -->
+    <div id="home">
+      <!-- <h1>Drache Speciality</h1>
+      <h2>Serving Coffee & Sassiness</h2> -->
+    </div>
+    <!-- ------------------------About-------------------------- -->
+    <div id="about">
+      <div class="about-text">
+        <h1>Welcome to Gery’s Deli Cafe</h1>
+        <p>
+          Classic Comfort with a California Twist
+          <br><br>
+          Located at 200 6th Ave in San Francisco, Gery’s Deli Cafe is your neighborhood spot for hearty sandwiches, fresh-baked goods, and hand-crafted coffee served with a smile. Inspired by traditional deli flavors and West Coast freshness, we bring together the best of both worlds in a cozy, welcoming setting.
+          <br>
+          Our menu features stacked deli classics, fresh salads, breakfast favorites, and daily specials—all made with quality ingredients and care. Whether you're stopping by for your morning coffee, a quick lunch, or a relaxed weekend bite, Gery’s is the kind of place that feels like home.
+          <br>
+          Come for the food, stay for the community. There’s always a seat waiting for you at Gery’s.
+        </p>
+      </div>
+      <div class="about-image">
+        <div class="front-image"></div>
+        <div class="back-image"></div>
+      </div>
+    </div>
+    <!-- ------------------------Timings----------------------------- -->
+     <div id="timings">
+      <div class="timing-title">
+        <h2>Opening</h2>
+        <h2 class="und">Hours</h2>
+      </div>
+      <!-- <div class="separation"></div> -->
+      <div class="times">
+        <div class="mon-thu">
+          <h3>Tuesday - Thursday</h3>
+          <h2>9.00am - 3.00pm</h2>
+        </div>
+        <div class="fri-sun">
+          <h3>Friday - Saturday</h3>
+          <h2>9.00am - 5.00pm</h2>
+        </div>
+        <div class="fri-sun">
+          <h3>Sunday - Monday</h3>
+          <h2>Closed</h2>
+        </div>
+      </div>
+     </div>
+    <!-- ------------------------Menu-------------------------------- -->
+     <div id="menu">
+       <h1 class="menu-title">Menu</h1>
+      <div class="drinks">
+        <div class="items coffee">
+          <h1>Café</h1>
+          <ul>
+            <li>
+              <span class="item-name">Espresso</span><span class="dots"></span
+              ><span class="item-price">2.50</span>
+            </li>
+            <li>
+              <span class="item-name">Ristretto</span><span class="dots"></span
+              ><span class="item-price">2.50</span>
+            </li>
+            <li>
+              <span class="item-name">Espresso Macchato</span
+              ><span class="dots"></span><span class="item-price">2.50</span>
+            </li>
+            <li>
+              <span class="item-name">Lungo</span><span class="dots"></span
+              ><span class="item-price">2.90</span>
+            </li>
+            <li>
+              <span class="item-name">Lungo Macchato</span
+              ><span class="dots"></span><span class="item-price">2.90</span>
+            </li>
+            <li>
+              <span class="item-name">Double Espresso</span
+              ><span class="dots"></span><span class="item-price">3.90</span>
+            </li>
+            <li>
+              <span class="item-name">Flat White</span><span class="dots"></span
+              ><span class="item-price">5.00</span>
+            </li>
+          </ul>
+        </div>
+        <div class="items tea">
+          <h1>Thé</h1>
+          <ul>
+            <li>
+              <span class="item-name">Matcha</span><span class="dots"></span
+              ><span class="item-price">4.50</span>
+            </li>
+            <li>
+              <span class="item-name">Chai Masala</span
+              ><span class="dots"></span><span class="item-price">4.50</span>
+            </li>
+            <li>
+              <span class="item-name">Chocolat Chaud</span
+              ><span class="dots"></span><span class="item-price">6.00</span>
+            </li>
+            <li>
+              <span class="item-name">Thé/ infusions</span
+              ><span class="dots"></span><span class="item-price">4.50</span>
+            </li>
+            <li>
+              <span class="item-name">Softs</span><span class="dots"></span
+              ><span class="item-price">4.00</span>
+            </li>
+            <li>
+              <span class="item-name">Eaux</span><span class="dots"></span
+              ><span class="item-price">3.00</span>
+            </li>
+            <li>
+              <span class="item-name">Jus d'orange</span
+              ><span class="dots"></span><span class="item-price">5.00</span>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="food">
+        <div class="items meal">
+          <h1>Boissons</h1>
+          <ul>
+            <li>
+              <span class="item-name">Jus d'orange</span
+              ><span class="dots"></span><span class="item-price">5.00</span>
+            </li>
+            <li>
+              <span class="item-name">Thé</span><span class="dots"></span
+              ><span class="item-price">4.00</span>
+            </li>
+            <li>
+              <span class="item-name">Chai Tea Latte</span
+              ><span class="dots"></span><span class="item-price">5.90</span>
+            </li>
+            <li>
+              <span class="item-name">Matcha Latte</span
+              ><span class="dots"></span><span class="item-price">5.90</span>
+            </li>
+            <li>
+              <span class="item-name">Chocolat Vennois</span
+              ><span class="dots"></span><span class="item-price">5.50</span>
+            </li>
+            <li>
+              <span class="item-name">Chocolat Blanc Vennois</span
+              ><span class="dots"></span><span class="item-price">5.50</span>
+            </li>
+          </ul>
+        </div>
+        <div class="items bread">
+          <h1>Frapés</h1>
+          <ul>
+            <li>
+              <span class="item-name">Cafe</span><span class="dots"></span
+              ><span class="item-price">4.90</span>
+            </li>
+            <li>
+              <span class="item-name">Latte</span><span class="dots"></span
+              ><span class="item-price">5.50</span>
+            </li>
+            <li>
+              <span class="item-name">Moccaccino</span><span class="dots"></span
+              ><span class="item-price">5.90</span>
+            </li>
+            <li>
+              <span class="item-name">Moccaccino Blanc</span
+              ><span class="dots"></span><span class="item-price">5.90</span>
+            </li>
+            <li>
+              <span class="item-name">Caramelo</span><span class="dots"></span
+                ><span class="item-price">5.90</span>
+              </li>
+              <li>
+                <span class="item-name">Vanille</span><span class="dots"></span
+                  ><span class="item-price">5.90</span>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <!-- -----------------------Gallery------------------------------ -->
+        <div id="container">
+          <div class="header">
+            <h1>CULINARY ARTISTRY</h1>
+            <p>A visual celebration of flavors</p>
+          </div>
+          <div class="gallery" id="gallery">
+            <!-- Images will be populated by JavaScript -->
+          </div>
+        </div>
+    <!-- -----------------------Contact------------------------------ -->
+     <div id="contact">
+      <div class="address">
+        <div class="logo-end">
+          <img class="logo-end-img" src="assets/logo-icon.png" alt="">
+      </div>
+        <span
+          ><img
+            class="location-icon"
+            src="assets/location-icon.png"
+            alt="location-icon"
+          />
+          200 6th Ave, San Francisco,<br />
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;CA 94118, United States</span
+        >
+        <a
+          href="https://www.google.com/maps/place/Gery%E2%80%99s+Deli+Cafe/@37.7846012,-122.4645615,17z/data=!4m17!1m10!3m9!1s0x8085879b1af32a13:0xd6a27236903e9183!2sGery%E2%80%99s+Deli+Cafe!8m2!3d37.7846418!4d-122.4644038!10e5!14m1!1BCgIgAQ!16s%2Fg%2F11vx6v28j2!3m5!1s0x8085879b1af32a13:0xd6a27236903e9183!8m2!3d37.7846418!4d-122.4644038!16s%2Fg%2F11vx6v28j2?entry=ttu&g_ep=EgoyMDI1MDYzMC4wIKXMDSoASAFQAw%3D%3D"
+          ><br />View on map</a
+        >
+      </div>
+      <div class="contact-us">
+        <h1>Contact Us</h1>
+        <p>
+            For any questions, feedback, or inquiries, feel free to call us or send a message on Instagram. We look forward to hearing from you!
+        </p>
+        <div>
+          <img src="assets/phone-icon.png" alt="phone-icon" />
+          <a href="tel:+14157026333">+1 415-702-6333</a>
+        </div>
+        <div class="instagram-link">
+          <img
+            class="instagram-icon"
+            src="assets/instagram.png"
+            alt="Instagram Icon"
+          />
+          <a href="https://www.instagram.com/gerysdelicafe/">Instagram </a>
+        </div>
+      </div>
+      </div>
+    </div>
+    <!-- -----------------------Script------------------------------- -->
+    <script src="script.js"></script>
+  </body>
+</html>
