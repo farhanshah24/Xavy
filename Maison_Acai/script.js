@@ -5,7 +5,7 @@ window.addEventListener("load", function () {
     setTimeout(function () {
       preloader.style.display = "none";
     }, 500); // matches the CSS transition
-  }, 7000); // No artificial delay
+  }, 0); // No artificial delay
 });
 
 const foodImages = [
